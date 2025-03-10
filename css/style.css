@@ -1,0 +1,48 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        /* Header Styling */
+        header {
+            background: black;
+            color: white;
+            padding: 15px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        /* Logo or Title */
+        header div {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        /* Navigation Menu */
+        ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+
+        ul li {
+            display: inline;
+        }
+
+        ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+            transition: color 0.3s ease;
+        }
+
+        ul li a:hover {
+            color: #ffcc00; /* Highlight on hover */
+        }
+  
