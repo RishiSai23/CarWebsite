@@ -1,20 +1,32 @@
-/* carousel.css */
-
-/* Optional: Customize the carousel container's appearance */
-.carousel {
-    max-width: 100%; /* Ensure the carousel does not exceed the container */
-    margin: 0 auto; /* Center the carousel */
+/* Scope all styles to only elements inside #carouselExample */
+#carouselExample {
+    max-width: 100%;
+    margin: 0 auto;
 }
 
-/* Optional: Style the carousel items (images) */
-.carousel-item img {
-    object-fit: cover; /* Ensure images fill the container nicely */
-    height: 500px; /* Set a fixed height for the images */
+/* Ensure images only inside the carousel are affected */
+#carouselExample .carousel-item img {
+    object-fit: cover;
+    height: 500px;
+    width: 100%;
 }
 
-/* Optional: Style the carousel navigation buttons */
-.carousel-control-prev-icon, .carousel-control-next-icon {
-    background-color: black; /* Make the buttons more visible */
+/* Style navigation buttons inside the carousel only */
+#carouselExample .carousel-control-prev-icon,
+#carouselExample .carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5);
     border-radius: 50%;
     padding: 10px;
+}
+
+/* Make sure indicators are styled properly */
+#carouselExample .carousel-indicators button {
+    background-color: white;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    #carouselExample .carousel-item img {
+        height: 300px; /* Reduce height for smaller screens */
+    }
 }
