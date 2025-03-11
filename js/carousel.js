@@ -8,3 +8,5 @@ document.addEventListener('DOMContentLoaded', function () {
         wrap: true       // Allow carousel to cycle infinitely
     });
 });
+
+
