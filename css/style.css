@@ -45,4 +45,67 @@
         ul li a:hover {
             color: #ffcc00; /* Highlight on hover */
         }
-  
+        
+        /* Service Section Styles */
+.service {
+    padding: 60px 0;
+    background-color: #f9f9f9;
+}
+
+.service-content {
+    text-align: center;
+}
+
+.single-service-item {
+    background: #ffffff;
+    padding: 30px;
+    margin: 15px 0;
+    border-radius: 0; /* Making the box square */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    width: 250px; /* Ensuring a square shape */
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.single-service-item:hover {
+    transform: translateY(-10px);
+}
+
+.single-service-icon {
+    font-size: 50px;
+    color: #ff6600;
+    margin-bottom: 10px; /* Reduced margin for better spacing */
+}
+
+.single-service-item h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+.single-service-item h2 a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease-in-out;
+}
+
+.single-service-item h2 a:hover {
+    color: #ff6600;
+}
+
+.single-service-item p {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.4;
+    text-align: center;
+}
+
+.single-service-icon i {
+    display: block;
+}
+

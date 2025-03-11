@@ -7,7 +7,7 @@
 /* Ensure images only inside the carousel are affected */
 #carouselExample .carousel-item img {
     object-fit: cover;
-    height: 500px;
+    height: 600px;
     width: 100%;
 }
 
